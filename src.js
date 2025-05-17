@@ -187,7 +187,7 @@ alert(dt < 16 ? "First fifteen days of the month" : "Last days of the month")
 
 // 6
 let mins = Math.floor(Date.now() / (1000 * 60))
-alert("Minutes since Jan 1 1970: " + mins) // removed comma in string
+alert("Minutes since Jan 1 1970: " + mins)
 
 // 7
 let h = d.getHours()
@@ -198,14 +198,14 @@ let ld = new Date(2020, 11, 31)
 alert("Last date of 2020: " + ld)
 
 // 9
-let r = new Date("June, 18, 2015") // removed comma in date string
+let r = new Date("June, 18, 2015") 
 let td = new Date()
 let dp = Math.floor((td - r) / (1000 * 60 * 60 * 24))
 alert("Days since 1st Ramadan: " + dp)
 
 // 10
 let ref = new Date()
-let y15 = new Date("Jan, 1, 2015") // removed comma in date string
+let y15 = new Date("Jan, 1, 2015")
 let sec = Math.floor((ref - y15) / 1000)
 alert("Seconds since start of 2015: " + sec)
 
